@@ -95,5 +95,59 @@ header{
     background-color: #d3d3d3;
 }
 
+.s_one_box_big{
+    background-color: #d3d3d3;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s_one_box_big .c_box_big{
+    background-color: #228b22;
+    width: 50%;
+    height: 700px;
+}
+
+
+.sf_two_box{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    background-color: #23272a;
+}
+
+.sf_two_box .cf_two_box{
+    height: 460px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    
+}
+
+.cf_one_box {
+    background-color: #f08080;
+    width: 30%;
+    border-radius: 5px;
+}
+
+.cf_four_box{
+    background-color: #20b2aa;
+    width: 70%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.cf_box_1{
+    border: 1px dotted white;
+    width: calc(100% / 4);
+}
+
+
+
+
 
 
