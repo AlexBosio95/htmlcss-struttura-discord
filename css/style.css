@@ -58,12 +58,41 @@ header{
     align-items: center;
 }
 
-.c_box{
+.s_one_box .c_box{
     background-color: #ee82ee;
     width: 40%;
     height: 300px;
     border-radius: 10px;
+}
 
+.s_two_box{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.s_two_box .c_two_box{
+    height: 330px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.c_box_1{
+    background-color: #1e90ff;
+    flex-grow: 2;
+}
+
+.c_box_2{
+    background-color: #ffc0cb;
+    flex-grow: 1;
+
+}
+
+#bg_gray{
+    background-color: #d3d3d3;
 }
 
 
