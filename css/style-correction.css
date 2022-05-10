@@ -14,7 +14,7 @@ header{
 }
 
 .container{
-    width: 60%;
+    width: 850px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -22,7 +22,7 @@ header{
 
 .logo,
 .log {
-    height: 40px;
+    padding: 5px;
     flex-grow: 1;
     background-color: #daa520; 
     display: flex;
@@ -33,9 +33,13 @@ header{
     flex-direction: row-reverse;
 }
 
+.log span, .logo span{
+    padding: 5px 10px;
+}
+
 
 .menu{
-    height: 40px;
+    padding: 5px;
     flex-grow: 2;
     display: flex;
     background-color: #daa520;
@@ -49,10 +53,7 @@ header{
     color: black;
 }
 
-.log,
-.logo span{
-    padding: 5px 10px;
-}
+
 
 .s_one_box{
     background-color: #00008b;
@@ -64,7 +65,7 @@ header{
 
 .s_one_box .c_box{
     background-color: #ee82ee;
-    width: 50%;
+    width: 700px;
     height: 300px;
     border-radius: 10px;
 }
@@ -79,28 +80,33 @@ header{
 
 .s_two_box .c_two_box{
     height: 330px;
-    width: 60%;
+    width: 850px;
     display: flex;
     justify-content: center;
 }
 
 .c_box_1{
     background-color: #1e90ff;
-    flex-grow: 2;
+    /* flex-grow: 2; */
+    width: 60%;
 }
 
 .c_box_2{
     background-color: #ffc0cb;
-    flex-grow: 1;
+    /* flex-grow: 1; */
+    width: 40%;
 
 }
 
-#bg_gray{
+/* #bg_gray{
+    background-color: #d3d3d3;
+} */
+
+.bg{
     background-color: #d3d3d3;
 }
 
 .s_one_box_big{
-    background-color: #d3d3d3;
     height: 800px;
     display: flex;
     justify-content: center;
@@ -109,7 +115,7 @@ header{
 
 .s_one_box_big .c_box_big{
     background-color: #228b22;
-    width: 60%;
+    width: 850px;
     height: 700px;
 }
 
@@ -123,7 +129,7 @@ header{
 
 .sf_two_box .cf_two_box{
     height: 460px;
-    width: 60%;
+    width: 850px;
     display: flex;
     justify-content: center;
     margin-top: 10px;
@@ -146,7 +152,7 @@ header{
 
 .cf_box_1{
     border: 1px dotted white;
-    width: calc(100% / 4);
+    flex-basis: calc(100% / 4);
 }
 
 .sf_two_box_small{
@@ -169,7 +175,7 @@ header{
 }
 
 .container_f{
-    width: 60%;
+    width: 850px;
     margin: 0 auto;
     display: flex;
     align-items: flex-end;
